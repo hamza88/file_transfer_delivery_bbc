@@ -21,6 +21,7 @@ class SchedulePage
 
   def add_values_to_schedule_xml(key, value)
     doc_1 = Nokogiri::XML(File.open("features/fixtures/OnAir/OnAir/e2e_orv_schedule_test.xml"))
+    $schedule_file = doc_1
     doc_1.search(key).each do |node|
       if node.name == 'On_Date'
         get_current_date_schedule(value)

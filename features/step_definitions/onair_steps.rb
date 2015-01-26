@@ -59,7 +59,11 @@ When(/^I copy "([^"]*)" file to FTP server into folder "([^"]*)"$/) do |file_typ
 end
 
 Given(/^I copy "(.*?)" file to folder "(.*?)"$/) do |xml_file, folder |
-
+  case xml_file
+    when 'Commissions'
+      send_commissions_to(folder)
+  end
+  folder_path
 end
 
 

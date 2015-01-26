@@ -13,7 +13,7 @@ Feature: Schedule data imported into Mediaflex
       | In-House_Dept           | ANC–CURRENT AFFAIRS |
       | Confidentiality         | hidden              |
       | Repository_Confidential | false               |
-    And I copy "Commissions" file to folder "location"
+    And I copy "Commissions" file to folder "\\\\fgbw1e2efs002\\metadata\\ingest\\commissions"
     Given I have a valid "Schedule" data in Xml with the following:
       | Event_ID          | 87989635    |
       | UID               | CBIC309Y/01 |
