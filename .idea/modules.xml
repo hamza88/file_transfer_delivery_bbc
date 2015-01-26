@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:/00_sikuli_jruby_cucumber_for_jupiter/.idea/00_sikuli_jruby_cucumber_for_jupiter.iml" filepath="D:/00_sikuli_jruby_cucumber_for_jupiter/.idea/00_sikuli_jruby_cucumber_for_jupiter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SignianManagerTest.iml" filepath="$PROJECT_DIR$/.idea/SignianManagerTest.iml" />
+      <module fileurl="file://D:/sikuli_project/.idea/Sikuli_Test_Media.iml" filepath="D:/sikuli_project/.idea/Sikuli_Test_Media.iml" />
+      <module fileurl="file://D:/dropbox items/Dropbox/Collinson/household/.idea/household.iml" filepath="D:/dropbox items/Dropbox/Collinson/household/.idea/household.iml" />
+    </modules>
+  </component>
+</project>
