@@ -19,7 +19,7 @@ Given(/^I have a valid "(.*?)" data in Xml with the following:$/) do |file_type,
   end
 end
 
-Given(/^I update a valid "(.*?)" data in Xml with the following:$/) do |file_type, table|
+Given(/^I send an update "(.*?)" data in Xml with the following:$/) do |file_type, table|
   case file_type
     when 'Schedule'
       @schedule = SchedulePage.new
@@ -61,9 +61,14 @@ end
 Given(/^I copy "(.*?)" file to folder "(.*?)"$/) do |xml_file, folder |
   case xml_file
     when 'Commissions'
-      send_commissions_to(folder)
+      commissions = OnAirFolderPage.new
+      commissions.send_commissions_to(folder)
+    when 'Schedule'
+      schedule = OnAirFolderPage.new
+      schedule.send_schedule_to(folder)
+    when 'Programmes'
+      send_programmes_to(folder)
   end
-  folder_path
 end
 
 

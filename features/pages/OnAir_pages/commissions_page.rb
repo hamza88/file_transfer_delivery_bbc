@@ -13,39 +13,40 @@ class CommissionsPage
     file = File.open("features/fixtures/OnAir/OnAir/e2e_orv_commissions.xml")
     xml = Nokogiri::XML(file)
 # save the output into a new file
-    File.open("features/fixtures/OnAir/OnAir/e2e_orv_commissions_test.xml", "w") do |f|
+    File.open("features/fixtures/OnAir/OnAir/temp_xmls/commissions.xml", "w") do |f|
       f.write xml.to_xml
     end
   end
 
   def add_values_to_commissions_xml(key, value)
-    doc_1 = Nokogiri::XML(File.open("features/fixtures/OnAir/OnAir/e2e_orv_commissions_test.xml"))
+    doc_1 = Nokogiri::XML(File.open("features/fixtures/OnAir/OnAir/temp_xmls/commissions.xml"))
+    $commissions_file = "commissions.xml"
     doc_1.search(key).each do |node|
       if node.name == 'Delivery_Date'
         get_current_time(value)
         node.content = $new_value.to_s
-        File.open("features/fixtures/OnAir/OnAir/e2e_orv_commissions_test.xml", 'w') { |f| doc_1.write_xml_to f }
+        File.open("features/fixtures/OnAir/OnAir/temp_xmls/commissions.xml", 'w') { |f| doc_1.write_xml_to f }
         puts "The Commissions xml file has been created successfully with #{$new_value} on #{key}!"
       else
         node.content = value if node.name != 'Delivery_Date'
-        File.open("features/fixtures/OnAir/OnAir/e2e_orv_commissions_test.xml", 'w') { |f| doc_1.write_xml_to f }
+        File.open("features/fixtures/OnAir/OnAir/temp_xmls/commissions.xml", 'w') { |f| doc_1.write_xml_to f }
         puts "The Commissions xml file has been created successfully with #{value} on #{key}!"
       end
     end
   end
 
   def update_commissions_values(key, value)
-    doc = Nokogiri::XML(File.open("features/fixtures/OnAir/OnAir/e2e_orv_commissions_test.xml", 'r'))
+    doc = Nokogiri::XML(File.open("features/fixtures/OnAir/OnAir/temp_xmls/commissions.xml", 'r'))
     get_current_time(value) if key == 'Delivery_Date'
     doc.search(key).each do |node|
       if node.name == 'Delivery_Date'
         get_current_time(value)
         node.content = $new_value.to_s
-        File.open("features/fixtures/OnAir/OnAir/e2e_orv_commissions_test.xml", 'w') { |f| doc_1.write_xml_to f }
+        File.open("features/fixtures/OnAir/OnAir/temp_xmls/commissions.xml", 'w') { |f| doc_1.write_xml_to f }
         puts "The Commissions xml file has been updated successfully with #{$new_value} on #{key}!"
       else
         node.content = value if node.name != 'Delivery_Date'
-        File.open("features/fixtures/OnAir/OnAir/e2e_orv_commissions_test.xml", 'w') { |f| doc_1.write_xml_to f }
+        File.open("features/fixtures/OnAir/OnAir/temp_xmls/commissions.xml", 'w') { |f| doc_1.write_xml_to f }
         puts "The Commissions xml file has been updated successfully with #{value} on #{key}!"
       end
     end

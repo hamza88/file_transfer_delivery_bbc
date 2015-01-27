@@ -21,6 +21,7 @@ class ProgrammesPage
 
   def add_values_to_programmes_xml(key, value)
     doc = Nokogiri::XML(File.open("features/fixtures/OnAir/OnAir/e2e_orv_programmes_test.xml", 'r'))
+    $programmes_file = doc
     doc.search(key).each do |node|
       node.content = value
       File.open("features/fixtures/OnAir/OnAir/e2e_orv_schedule_test.xml", 'w') { |f| doc.write_xml_to f }

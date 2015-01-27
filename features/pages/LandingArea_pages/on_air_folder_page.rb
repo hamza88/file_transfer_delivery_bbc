@@ -2,34 +2,57 @@ require 'find'
 require 'win32ole'
 require 'fileutils'
 require_relative '../../../features/pages/OnAir_pages/schedule_page'
+require_relative '../../../features/pages/OnAir_pages/commissions_page'
+require_relative '../../../features/pages/OnAir_pages/programmes_page'
 
-module OnAirFolderPage
+class OnAirFolderPage
 
   def send_commissions_to(folder)
       @folder = folder
-      puts @folder
       net = WIN32OLE.new('WScript.Network')
-      user_name = "NATIONAL\\razzah01"
-      password = "Monday123"
-      net.MapNetworkDrive( 'l:', "\\\\fgbw1e2efs002\\metadata\\ingest\\commissions", nil,  user_name, password )
-      commissions_path = ''
-      Dir.foreach('l:\\') { |entry|
-        if File.directory?("l:\\#{entry}")
-          puts entry
-          package_path << entry if entry =~ /#{$schedule_file}/
-          puts package_path
-          raise() if entry =~ nil
-        end
-      }
+      user_name = "npf"
+      password = "npf"
+      net.MapNetworkDrive( 'h:', "\\\\fgbw1e2efs002\\metadata\\ingest\\commissions", nil,  user_name, password )
+      FileUtils.cp_r("features/fixtures/OnAir/OnAir/temp_xmls/commissions.xml", "h:\\")
+      rename_file('commissions')
+      net.RemoveNetworkDrive( 'h:')
+  end
+
+  def rename_file(filename)
+    timestamped_filename = Time.now.strftime("%y%m%d_%H%M")
+    basename = "#{filename}_#{timestamped_filename}"
+    # folder_path = "D:/SignianManagerTest-master/SignianManagerTest-master/features/fixtures/OnAir/OnAir/temp_xmls"
+    folder_path = "h://"
+    xml_files = Dir.glob(File.join(folder_path, "*.xml"))
+    puts xml_files
+    xml_files .each do |f|
+      # File.rename(f, folder_path + "/" + basename.to_s + File.extname(f))
+      File.rename(f, folder_path + basename.to_s + File.extname(f))
     end
 
-
-  FileUtils.cp_r("\\\\fgbw1e2efs002\\metadata\\ingest\\commissions","c:\\chef-tmp")
-
-
   end
-  World(FbdiFolderPage)
 
+  def send_schedule_to(folder)
+    @folder = folder
+    net = WIN32OLE.new('WScript.Network')
+    user_name = "npf"
+    password = "npf"
+    net.MapNetworkDrive( 'i:', "\\\\fgbw1e2efs002\\metadata\\ingest\\schedule", nil,  user_name, password )
+    FileUtils.cp_r("features/fixtures/OnAir/OnAir/temp_xmls/#{$schedule_file}", "i:\\")
+    net.RemoveNetworkDrive( 'i:')
+  end
+
+  def send_programmes_to(folder)
+    @folder = folder
+    net = WIN32OLE.new('WScript.Network')
+    user_name = "npf"
+    password = "npf"
+    net.MapNetworkDrive( 'j:', "\\\\fgbw1e2efs002\\metadata\\ingest\\programmes", nil,  user_name, password )
+    FileUtils.cp_r("features/fixtures/OnAir/OnAir/temp_xmls/#{$programmes_file}", "j:\\")
+    net.RemoveNetworkDrive( 'j:')
+  end
+
+  # FileUtils.cp_r("\\\\fgbw1e2efs002\\metadata\\ingest\\commissions","c:\\chef-tmp")
 
 end
 

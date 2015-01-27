@@ -51,6 +51,7 @@ end
 Before do
   ENV['NO_PROXY']="127.0.0.1"
   FileUtils.rm_rf(Dir.glob('features/fixtures/packages/complete_packages/*'))
+  FileUtils.rm_rf(Dir.glob('features/fixtures/OnAir/OnAir/temp_xmls/*'))
   @browser = browser
 end
 
