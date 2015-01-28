@@ -39,6 +39,7 @@ class OnAirFolderPage
     password = "npf"
     net.MapNetworkDrive( 'i:', "\\\\fgbw1e2efs002\\metadata\\ingest\\schedule", nil,  user_name, password )
     FileUtils.cp_r("features/fixtures/OnAir/OnAir/temp_xmls/#{$schedule_file}", "i:\\")
+    rename_file('schedule')
     net.RemoveNetworkDrive( 'i:')
   end
 
@@ -49,6 +50,7 @@ class OnAirFolderPage
     password = "npf"
     net.MapNetworkDrive( 'j:', "\\\\fgbw1e2efs002\\metadata\\ingest\\programmes", nil,  user_name, password )
     FileUtils.cp_r("features/fixtures/OnAir/OnAir/temp_xmls/#{$programmes_file}", "j:\\")
+    rename_file('programmes')
     net.RemoveNetworkDrive( 'j:')
   end
 

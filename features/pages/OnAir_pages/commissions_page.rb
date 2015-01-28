@@ -42,11 +42,11 @@ class CommissionsPage
       if node.name == 'Delivery_Date'
         get_current_time(value)
         node.content = $new_value.to_s
-        File.open("features/fixtures/OnAir/OnAir/temp_xmls/commissions.xml", 'w') { |f| doc_1.write_xml_to f }
+        File.open("features/fixtures/OnAir/OnAir/temp_xmls/commissions.xml", 'w') { |f| doc.write_xml_to f }
         puts "The Commissions xml file has been updated successfully with #{$new_value} on #{key}!"
       else
         node.content = value if node.name != 'Delivery_Date'
-        File.open("features/fixtures/OnAir/OnAir/temp_xmls/commissions.xml", 'w') { |f| doc_1.write_xml_to f }
+        File.open("features/fixtures/OnAir/OnAir/temp_xmls/commissions.xml", 'w') { |f| doc.write_xml_to f }
         puts "The Commissions xml file has been updated successfully with #{value} on #{key}!"
       end
     end

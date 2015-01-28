@@ -17,8 +17,8 @@ Background:
   | Video_Source      | FD          |
   | Confidentiality   | public      |
   | Smoke_Screen_Flag | false       |
-  And I copy "AsRun" file to folder "location"
-  Given I log into Mediaflex
-  When I search for UID "CBAX240F/01 "
-  Then I should see result "1" returned in Mediaflex And I verify DAY_TYPE as "As-Run"
+#  And I copy "AsRun" file to folder "location"
+#  Given I log into Mediaflex
+#  When I search for UID "CBAX240F/01 "
+#  Then I should see result "1" returned in Mediaflex And I verify DAY_TYPE as "As-Run"
 

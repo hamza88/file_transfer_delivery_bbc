@@ -16,6 +16,11 @@ Given(/^I have a valid "(.*?)" data in Xml with the following:$/) do |file_type,
       table.rows_hash.map do |key, value|
         @commissions.add_values_to_commissions_xml(key, value)
       end
+    when 'Programmes'
+      @programmes = ProgrammesPage.new
+      table.rows_hash.map do |key, value|
+        @programmes.add_values_to_programmes_xml(key, value)
+      end
   end
 end
 
@@ -67,7 +72,8 @@ Given(/^I copy "(.*?)" file to folder "(.*?)"$/) do |xml_file, folder |
       schedule = OnAirFolderPage.new
       schedule.send_schedule_to(folder)
     when 'Programmes'
-      send_programmes_to(folder)
+      programmes = OnAirFolderPage.new
+      programmes.send_programmes_to(folder)
   end
 end
 

@@ -3,27 +3,27 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="ac74c719-2913-4c83-b4d0-27387adf0f01" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/deferred_features/sikuli.feature" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../features/fixtures/packages/complete_packages/CBAX235F/CBAX235F_02_EYE.PDF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../features/fixtures/packages/complete_packages/CBAX235F/CBAX235F_02_mxf.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../features/fixtures/packages/complete_packages/CBAX235F/CBAX235F_02_AQC_PSE.pdf" afterPath="" />
       <change type="DELETED" beforePath="D:\SignianManagerTest-master\features\fixtures\packages\complete_packages\Package_CBAX236F01\CBAX236F01.mxf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../features/fixtures/packages/complete_packages/CBAX235F/CBAX235F_02_AQC_PSE.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../features/fixtures/packages/complete_packages/CBAX235F/CBAX235F_02_mxf.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../features/fixtures/packages/complete_packages/CBAX235F/CBAX235F_02_EYE.PDF" afterPath="" />
       <change type="DELETED" beforePath="D:\SignianManagerTest-master\features\fixtures\packages\complete_packages\Package_CBAX236F01\CBAX236F01.pdf" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/test_report.html" afterPath="$PROJECT_DIR$/results/test_report.html" />
       <change type="MODIFICATION" beforePath="D:/sikuli_project/.idea/modules.xml" afterPath="D:/sikuli_project/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/pages/MediaShuttle_pages/media_shuttle_page.rb" afterPath="$PROJECT_DIR$/features/pages/MediaShuttle_pages/media_shuttle_page.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cucumber.yml" afterPath="$PROJECT_DIR$/cucumber.yml" />
-      <change type="MODIFICATION" beforePath="D:/sikuli_project/.idea/Sikuli_Test_Media.iml" afterPath="D:/sikuli_project/.idea/Sikuli_Test_Media.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/1_incoming_packages_and_as_run_features/002_nfa_process.feature" afterPath="$PROJECT_DIR$/features/1_incoming_packages_and_as_run_features/002_nfa_process.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/hooks.rb" afterPath="$PROJECT_DIR$/features/support/hooks.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/file_management_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/file_management_steps.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/env.rb" afterPath="$PROJECT_DIR$/features/support/env.rb" />
-      <change type="MODIFICATION" beforePath="D:/sikuli_project/.idea/workspace.xml" afterPath="D:/sikuli_project/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/file_management_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/file_management_steps.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/test_report.html" afterPath="$PROJECT_DIR$/results/test_report.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/create_package.rb" afterPath="$PROJECT_DIR$/features/support/create_package.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/SignianManagerTest.iml" afterPath="$PROJECT_DIR$/.idea/SignianManagerTest.iml" />
+      <change type="MODIFICATION" beforePath="D:/sikuli_project/.idea/Sikuli_Test_Media.iml" afterPath="D:/sikuli_project/.idea/Sikuli_Test_Media.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/hooks.rb" afterPath="$PROJECT_DIR$/features/support/hooks.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/pages/LandingArea_pages/submissions_folder_page.rb" afterPath="$PROJECT_DIR$/features/pages/LandingArea_pages/submissions_folder_page.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/pages/MediaShuttle_pages/media_shuttle_page.rb" afterPath="$PROJECT_DIR$/features/pages/MediaShuttle_pages/media_shuttle_page.rb" />
+      <change type="MODIFICATION" beforePath="D:/sikuli_project/.idea/workspace.xml" afterPath="D:/sikuli_project/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/SignianManagerTest.iml" afterPath="$PROJECT_DIR$/.idea/SignianManagerTest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/env.rb" afterPath="$PROJECT_DIR$/features/support/env.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/1_incoming_packages_and_as_run_features/002_nfa_process.feature" afterPath="$PROJECT_DIR$/features/1_incoming_packages_and_as_run_features/002_nfa_process.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cucumber.yml" afterPath="$PROJECT_DIR$/cucumber.yml" />
     </list>
     <ignored path="SignianManagerTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +37,11 @@
   </component>
   <component name="ChangesViewManager" flattened_view="false" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="system/coverage/SignianManagerTest@View_Planned_Schedule_data_in_Mediaflex_with_data_populated__SignianManagerTest__4_.coverage" NAME="View Planned Schedule data in Mediaflex with data populated: SignianManagerTest (4) Coverage Results" MODIFIED="1420636973863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SignianManagerTest" />
     <SUITE FILE_PATH="system/coverage/SignianManagerTest@Import_INVALID_UID_Schedule_data_with_Missing_Values__SignianManagerTest__1_.coverage" NAME="Import INVALID UID Schedule data with Missing Values: SignianManagerTest (1) Coverage Results" MODIFIED="1420618022592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SignianManagerTest" />
+    <SUITE FILE_PATH="system/coverage/SignianManagerTest@View_Planned_Schedule_data_in_Mediaflex_with_data_populated__SignianManagerTest__4_.coverage" NAME="View Planned Schedule data in Mediaflex with data populated: SignianManagerTest (4) Coverage Results" MODIFIED="1420636973863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SignianManagerTest" />
     <SUITE FILE_PATH="system/coverage/SignianManagerTest@As_an_MST__I_want_to_verify_files_Pass_DPP_complient_checks__SignianManagerTest.coverage" NAME="As an MST, I want to verify files Pass DPP complient checks: SignianManagerTest Coverage Results" MODIFIED="1420800183053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SignianManagerTest" />
-    <SUITE FILE_PATH="system/coverage/SignianManagerTest@Import_Schedule_data_with_Missing_Values__SignianManagerTest__1_.coverage" NAME="Import Schedule data with Missing Values: SignianManagerTest (1) Coverage Results" MODIFIED="1420624304940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SignianManagerTest" />
     <SUITE FILE_PATH="system/coverage/SignianManagerTest@As_an_MST__I_want_to_verify_that_incorrect_duration_inside_media_files_are_rejected_and_notfications_are_sent_out__SignianManagerTest.coverage" NAME="As an MST, I want to verify that incorrect duration inside media files are rejected and notfications are sent out: SignianManagerTest Coverage Results" MODIFIED="1420823291770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SignianManagerTest" />
+    <SUITE FILE_PATH="system/coverage/SignianManagerTest@Import_Schedule_data_with_Missing_Values__SignianManagerTest__1_.coverage" NAME="Import Schedule data with Missing Values: SignianManagerTest (1) Coverage Results" MODIFIED="1420624304940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SignianManagerTest" />
     <SUITE FILE_PATH="system/coverage/SignianManagerTest@Import_INVALID_UID_Schedule_data_with_Missing_Values__SignianManagerTest.coverage" NAME="Import INVALID UID Schedule data with Missing Values: SignianManagerTest Coverage Results" MODIFIED="1420628226870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SignianManagerTest" />
     <SUITE FILE_PATH="system/coverage/SignianManagerTest@Import_INVALID_UID_Schedule_data_with_Missing_Values__SignianManagerTest__2_.coverage" NAME="Import INVALID UID Schedule data with Missing Values: SignianManagerTest (2) Coverage Results" MODIFIED="1420618278114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SignianManagerTest" />
     <SUITE FILE_PATH="system/coverage/SignianManagerTest@New_001_schedule_xml_onAir__SignianManagerTest.coverage" NAME="New_001_schedule_xml_onAir: SignianManagerTest Coverage Results" MODIFIED="1420823373504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SignianManagerTest" />
@@ -82,68 +82,78 @@
       <file leaf-file-name="New_001_schedule_xml_onAir.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/2_onair_schedule_commision_3_features/New_001_schedule_xml_onAir.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="2788">
-              <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1872" max-vertical-offset="2788">
+              <caret line="152" column="0" selection-start-line="152" selection-start-column="0" selection-end-line="157" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="on_air_folder_page.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/pages/LandingArea_pages/on_air_folder_page.rb">
+      <file leaf-file-name="New_002_commission_xml_onAir.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/2_onair_schedule_commision_3_features/New_002_commission_xml_onAir.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1870">
+              <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hooks.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
+      <file leaf-file-name="New_003_programmes_xml_onAir.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/2_onair_schedule_commision_3_features/New_003_programmes_xml_onAir.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.5963756" vertical-offset="0" max-vertical-offset="1581">
-              <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="546" max-vertical-offset="1462">
+              <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="commissions_page.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/pages/OnAir_pages/commissions_page.rb">
+      <file leaf-file-name="New_004_invalid_scenarios_xmls.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/2_onair_schedule_commision_3_features/New_004_invalid_scenarios_xmls.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
-              <caret line="48" column="58" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="954" max-vertical-offset="1870">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="003_pass_validation_dpp_mediaflex.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/1_incoming_packages_and_as_run_features/003_pass_validation_dpp_mediaflex.feature">
+      <file leaf-file-name="New_005_as_run_xml_onAir.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/2_onair_schedule_commision_3_features/New_005_as_run_xml_onAir.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1207">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fbdi_folder_page.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/pages/LandingArea_pages/fbdi_folder_page.rb">
+      <file leaf-file-name="002_nfa_process.feature" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/1_incoming_packages_and_as_run_features/002_nfa_process.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="561">
-              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            <state vertical-scroll-proportion="1.0949782" vertical-offset="0" max-vertical-offset="1377">
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="submissions_folder_page.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/pages/LandingArea_pages/submissions_folder_page.rb">
+      <file leaf-file-name="onair_steps.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/onair_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1479">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schedule_page.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/pages/OnAir_pages/schedule_page.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
+              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -157,9 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/features/onair_schedule_commision_3_features/004_onair_schedule_unit_tests.feature" />
-        <option value="$PROJECT_DIR$/features/step_definitions/commissions_steps.rb" />
-        <option value="$PROJECT_DIR$/features/signiant_mediaflex_baton_amberfin_telestream_1_features/003_pass_validation_dpp_mediaflex.feature" />
         <option value="$PROJECT_DIR$/features/onair_schedule_commision_3_features/004_schedule_null_import.feature" />
         <option value="$PROJECT_DIR$/features/pages/schedule_page.rb" />
         <option value="$PROJECT_DIR$/features/mediaflex_destination_2_features/001_transfer_content_playout.feature" />
@@ -179,7 +186,6 @@
         <option value="$PROJECT_DIR$/features/step_definitions/baton_steps.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/telestream_steps.rb" />
         <option value="$PROJECT_DIR$/features/1_incoming_packages_and_as_run_features/005_as_run_xml_onAir.feature" />
-        <option value="$PROJECT_DIR$/features/2_onair_schedule_commision_3_features/New_002_commission_xml_onAir.feature" />
         <option value="$PROJECT_DIR$/features/3_mediaflex_destination_2_features/001_transfer_content_playout.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/mediaflex_steps.rb" />
         <option value="$PROJECT_DIR$/features/pages/Mediaflex_pages/mediaflex_page.rb" />
@@ -198,16 +204,20 @@
         <option value="$PROJECT_DIR$/features/step_definitions/file_management_steps.rb" />
         <option value="$PROJECT_DIR$/features/1_incoming_packages_and_as_run_features/003_pass_validation_dpp_mediaflex.feature" />
         <option value="$PROJECT_DIR$/features/1_incoming_packages_and_as_run_features/004_baton_amberfin_telestream_mediaflex.feature" />
-        <option value="$PROJECT_DIR$/features/1_incoming_packages_and_as_run_features/002_nfa_process.feature" />
         <option value="$PROJECT_DIR$/features/support/create_package.rb" />
-        <option value="$PROJECT_DIR$/features/pages/OnAir_pages/programmes_page.rb" />
-        <option value="$PROJECT_DIR$/features/2_onair_schedule_commision_3_features/New_001_schedule_xml_onAir.feature" />
-        <option value="$PROJECT_DIR$/features/step_definitions/onair_steps.rb" />
-        <option value="$PROJECT_DIR$/features/pages/OnAir_pages/commissions_page.rb" />
         <option value="$PROJECT_DIR$/features/pages/OnAir_pages/schedule_page.rb" />
         <option value="$PROJECT_DIR$/features/support/env.rb" />
-        <option value="$PROJECT_DIR$/features/pages/LandingArea_pages/on_air_folder_page.rb" />
         <option value="$PROJECT_DIR$/features/support/hooks.rb" />
+        <option value="$PROJECT_DIR$/features/2_onair_schedule_commision_3_features/New_002_commission_xml_onAir.feature" />
+        <option value="$PROJECT_DIR$/features/pages/LandingArea_pages/on_air_folder_page.rb" />
+        <option value="$PROJECT_DIR$/features/2_onair_schedule_commision_3_features/New_003_programmes_xml_onAir.feature" />
+        <option value="$PROJECT_DIR$/features/pages/OnAir_pages/programmes_page.rb" />
+        <option value="$PROJECT_DIR$/features/pages/OnAir_pages/commissions_page.rb" />
+        <option value="$PROJECT_DIR$/features/fixtures/OnAir/OnAir/temp_xmls/commissions.xml" />
+        <option value="$PROJECT_DIR$/features/step_definitions/onair_steps.rb" />
+        <option value="$PROJECT_DIR$/features/2_onair_schedule_commision_3_features/New_001_schedule_xml_onAir.feature" />
+        <option value="$PROJECT_DIR$/features/2_onair_schedule_commision_3_features/New_005_as_run_xml_onAir.feature" />
+        <option value="$PROJECT_DIR$/features/1_incoming_packages_and_as_run_features/002_nfa_process.feature" />
       </list>
     </option>
   </component>
@@ -216,7 +226,6 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
     <option name="width" value="1696" />
     <option name="height" value="1026" />
   </component>
@@ -262,7 +271,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -473,45 +481,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fixtures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OnAir" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OnAir" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="temp_xmls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SignianManagerTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SignianManagerTest-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fixtures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OnAir" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsRun" />
+              <option name="myItemId" value="3_mediaflex_destination_2_features" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -553,6 +523,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -912,28 +883,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="0" />
+    <frame x="-8" y="0" width="1696" height="1026" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944915" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3273305" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44279662" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23154762" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5120846" sideWeight="0.79583335" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44279662" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3273305" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993644" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -959,46 +930,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/features/1_incoming_packages_and_as_run_features/003_pass_validation_dpp_mediaflex.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1207">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/pages/LandingArea_pages/fbdi_folder_page.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="561">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/pages/LandingArea_pages/submissions_folder_page.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/2_onair_schedule_commision_3_features/New_001_schedule_xml_onAir.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2771">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/onair_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="333" max-vertical-offset="1224">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/4_full_suite_features/001_smoke_full_regression_end.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
@@ -1038,20 +969,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09061135" vertical-offset="274" max-vertical-offset="1190">
           <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/2_onair_schedule_commision_3_features/New_002_commission_xml_onAir.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1639" max-vertical-offset="1921">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/2_onair_schedule_commision_3_features/New_003_programmes_xml_onAir.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1462">
-          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1221,13 +1138,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/1_incoming_packages_and_as_run_features/002_nfa_process.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
-          <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/1_incoming_packages_and_as_run_features/004_baton_amberfin_telestream_mediaflex.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
@@ -1267,51 +1177,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/pages/OnAir_pages/programmes_page.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4268559" vertical-offset="0" max-vertical-offset="916">
-          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/support/create_package.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8088962" vertical-offset="920" max-vertical-offset="1887">
           <caret line="83" column="20" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/pages/OnAir_pages/commissions_page.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
-          <caret line="48" column="58" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/pages/OnAir_pages/schedule_page.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53212523" vertical-offset="0" max-vertical-offset="1241">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/onair_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.428336" vertical-offset="0" max-vertical-offset="1377">
-          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/2_onair_schedule_commision_3_features/New_001_schedule_xml_onAir.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="2788">
-          <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1319,22 +1188,108 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27838427" vertical-offset="0" max-vertical-offset="916">
           <caret line="15" column="5" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/pages/LandingArea_pages/on_air_folder_page.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5963756" vertical-offset="0" max-vertical-offset="1581">
-          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.8121911" vertical-offset="0" max-vertical-offset="1581">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/pages/LandingArea_pages/on_air_folder_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.94650656" vertical-offset="0" max-vertical-offset="1173">
+          <caret line="51" column="71" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/pages/OnAir_pages/programmes_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
+          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/pages/OnAir_pages/commissions_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8908297" vertical-offset="0" max-vertical-offset="1173">
+          <caret line="48" column="91" selection-start-line="48" selection-start-column="91" selection-end-line="48" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/fixtures/OnAir/OnAir/e2e_orv_programmes.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="916">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/pages/OnAir_pages/schedule_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/2_onair_schedule_commision_3_features/New_001_schedule_xml_onAir.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1872" max-vertical-offset="2788">
+          <caret line="152" column="0" selection-start-line="152" selection-start-column="0" selection-end-line="157" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/2_onair_schedule_commision_3_features/New_002_commission_xml_onAir.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1870">
+          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/2_onair_schedule_commision_3_features/New_003_programmes_xml_onAir.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
+          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/2_onair_schedule_commision_3_features/New_004_invalid_scenarios_xmls.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1870">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/onair_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1479">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/2_onair_schedule_commision_3_features/New_005_as_run_xml_onAir.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/1_incoming_packages_and_as_run_features/002_nfa_process.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0949782" vertical-offset="0" max-vertical-offset="1377">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding />
         </state>
       </provider>

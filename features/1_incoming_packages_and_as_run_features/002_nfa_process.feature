@@ -57,9 +57,7 @@ Feature: NFA Verifications
 #    And I copy to "Signiant" landing area into folder
 #    And I verify "md5" file is created
 #    And I verify Package exists in "Mediaflex" Landing area
-#
-#
-#
+
   Scenario Outline: As an Production, I want to verify that invalid UID's are deleted and notifications are sent out.
     Given a new valid UID <"Package"> which contains:
       | non_dpp_media_file | mxf |
