@@ -23,6 +23,7 @@ module MediaShuttlePage
     my_computer = 'computer_dialog.png'
     d_drive = 'd_drive_dialog.png'
     sig_directory = 'project_dialog.png'
+    sig_directory_inside = 'inside_project_dialog.png'
     features_directory = 'features_dialog.png'
     fixtures_directory = 'fixtures.png'
     packages_directory = 'packages.png'
@@ -38,6 +39,7 @@ module MediaShuttlePage
         @screen.doubleClick "#{my_computer}"
         @screen.doubleClick "#{d_drive}"
         @screen.doubleClick "#{sig_directory}"
+        @screen.doubleClick "#{sig_directory_inside}"
         @screen.doubleClick "#{features_directory}"
         @screen.doubleClick "#{fixtures_directory}"
         @screen.doubleClick "#{packages_directory}"

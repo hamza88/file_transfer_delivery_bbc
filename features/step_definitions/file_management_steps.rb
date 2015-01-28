@@ -22,21 +22,20 @@ Given(/^I use Media Shuttle to copy "(.*?)" to landing location into folder$/) d
   case file_type
     when 'package'
       login_to_media_shuttle
-     drop_folder_to_location
+      drop_folder_to_location
   end
 
 end
 
 
 Given(/^I verify "(.*?)" file is created$/) do |file_format|
-  SubmissionsFolderPage.map_my_drive(file_format)
+  map_my_drive_and_search_submissions(file_format)
 
 end
 
 Given(/I verify Package exists in FBDi Store area$/) do |area|
-  FbdiFolderPage.map_my_drive(area)
+  map_my_drive_and_search_fbdi_store(area)
 end
-
 
 
 And(/^I copy to "(.*?)" landing area into folder$/) do |location|
